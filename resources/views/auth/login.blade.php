@@ -53,11 +53,14 @@
                             <div class="col-md-8 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
                                     Login
+                                </button>   
+                                 <button type="submit" class="btn btn-primary">
+                                  Login with Google+
                                 </button>
 
-                                <a class="btn btn-link" href="login/google">
+                              <!--   <a class="btn btn-link" href="login/google">
                                     Login with Google
-                                </a>
+                                </a> -->
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
